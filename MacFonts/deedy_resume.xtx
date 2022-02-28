@@ -8,8 +8,6 @@
 %
 % Original repository:
 % https://github.com/deedydas/Deedy-Resume
-% Forked Repository:
-% https://github.com/hibumbapartha/Deedy-Resume/
 %
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
 %
@@ -240,9 +238,9 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{West Bengal University Of Technology}
+\descript{BTech in Informtion Technology}
+\location{July 2006 | Kolkata, IN}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
