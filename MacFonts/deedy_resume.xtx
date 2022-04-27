@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Partha Sarathi}{Ghosh}{ \urlstyle{same} \href{https://www.linkedin.com/in/architect-partha/}{linkedin.com/in/architect-partha/}\\
-\href{mailto:ghosh.bumba@gmail.com}{ghosh.bumba@gmail.com} | +91 9674455187 | Kolkata, India
+\href{mailto:ghosh.bumba@gmail.com}{ghosh.bumba@gmail.com} | \href{tel:+919674455187}{+91 9674455187} | Kolkata, India
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -108,8 +108,9 @@ Cloud Config
 
 \subsection{Frontend Frameworks}
 Angular \textbullet{} 
-AngularJS \textbullet{} 
+Vue JS \textbullet{} 
 JQuery \textbullet{} \newline
+JavaScript \textbullet{} 
 HTML5 \textbullet{} 
 CSS3
 \sectionsep
@@ -163,7 +164,13 @@ Newman
 \subsection{Performance}
 Dynatrace \textbullet{} 
 BlackDuck
+\sectionsep
 
+\subsection{Security}
+SQL Injection \textbullet{} 
+XSS \textbullet{} 
+CSRF \textbullet{} 
+DOS
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -190,6 +197,18 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Vonage}
+\descript{| Senior Software Engineer }
+\location{Apr 2022 - Present | Kolkata, IN}
+\vspace{\topsep}
+\begin{tightemize}
+\item \textbf{Role:} Full-stack Developer
+\item \textbf{Responsibilities:} Requirement Analysis, High Level and Low Level Design, Development, Code Review, Performance Analysis, Security Analysis, CICD implementation. 
+\item \textbf{Projects:} Vonage Customer Dashboard
+\end{tightemize}
+\sectionsep
+
+\section{Experience}
 \runsubsection{Tata Consultancy Services}
 \descript{| Associate Consultant }
 \location{Nov 2010 - Present | Kolkata, IN}
@@ -201,33 +220,30 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{GeoTech Informatics Pvt Ltd}
+\descript{| Senior Software Engineer }
+\location{July 2008 - Nov 2010 | Kolkata, IN}
+\vspace{\topsep}
 \begin{tightemize}
-\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\item \textbf{Responsibilities:} Requirement Analysis, High Level and Low Level Design, Development, Unit Testing, Code Review and Deployment
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{Creationet Infosystems Pvt Ltd}
+\descript{| Software Developer }
+\location{May 2007 - April 2008 | Kolkata, IN}
+\vspace{\topsep}
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.
-\item Created a backbone.js-like framework for the Captions editor.
+\item \textbf {Technologies:} Java, Swing and Jasper Report
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\runsubsection{Sansoft India Pvt Ltd}
+\descript{| Web Developer}
+\location{July 2006 - April 2007 | Kolkata, IN}
+\vspace{\topsep}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
-\item I created the Meme generator and more in PHP and Shell.
-\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+\item \textbf{Technologies:} PHP, MySQL, Joomla, Drupal, Wordpress
 \end{tightemize}
 \sectionsep
 
@@ -249,12 +265,9 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 
 \section{Awards} 
 \begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+2012	     & Champion  &  Chess Turnament @ TCS Kolkata\\
+2010	     & Finalist  & Best Ethical Hacker event @ TCS\\
+2009	     & Winner  & Best Employee Of the Year @ GeoTech\\
 \end{tabular}
 \sectionsep
 
