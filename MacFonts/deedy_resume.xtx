@@ -94,7 +94,7 @@ C \textbullet{}
 PHP
 \sectionsep
 
-\subsection{Backend Frameworks}
+\subsection{Backend}
 Spring Boot \textbullet{} 
 Struts \textbullet{} 
 JSP/Servlet \textbullet{} 
@@ -106,7 +106,7 @@ Zipkin \textbullet{}
 Cloud Config
 \sectionsep
 
-\subsection{Frontend Frameworks}
+\subsection{Frontend}
 Angular \textbullet{} 
 Vue JS \textbullet{} 
 JQuery \textbullet{} \newline
@@ -196,7 +196,7 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience | 16 years +}
+\section{Experience | 15 years +}
 \runsubsection{Vonage}
 \descript{| Senior Software Engineer }
 \location{Apr 2022 - Present | Kolkata, IN}
