@@ -15,16 +15,16 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
+%
 % TODO:
 % 1. Integrate biber/bibtex for article citation under publications.
 % 2. Figure out a smoother way for the document to flow onto the next page.
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
@@ -47,10 +47,10 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
- 
+
 \pagestyle{fancy}
 \fancyhf{}
- 
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Partha Sarathi}{Ghosh}{ \urlstyle{same} \href{https://www.linkedin.com/in/architect-partha/}{linkedin.com/in/architect-partha/}\\
-\href{mailto:ghosh.bumba@gmail.com}{ghosh.bumba@gmail.com} | \href{tel:+919674455187}{+91 9674455187} | Kolkata, India
+\href{mailto:ghosh.bumba@gmail.com}{ghosh.bumba@gmail.com} | \href{tel:+447867218682}{+44 7867218682} | London, United Kingdom
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,7 +75,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.33\textwidth}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -85,52 +85,52 @@
 \section{Skills}
 \subsection{Programming}
 \location{Expertise in:}
-Java \textbullet{}   
+Java \textbullet{}
 JavaScript
 
 \location{Familiar With:}
-Python \textbullet{} 
-C \textbullet{} 
+Python \textbullet{}
+C \textbullet{}
 PHP
 \sectionsep
 
 \subsection{Backend}
-Spring Boot \textbullet{} 
-Struts \textbullet{} 
-JSP/Servlet \textbullet{} 
-Swing/AWT \textbullet{} 
-JPA \textbullet{} 
+Spring Boot \textbullet{}
+Struts \textbullet{}
+JSP/Servlet \textbullet{}
+Swing/AWT \textbullet{}
+JPA \textbullet{}
 Hibernate \textbullet{}\newline
-Eureka \textbullet{} 
-Zipkin \textbullet{} 
+Eureka \textbullet{}
+Zipkin \textbullet{}
 Cloud Config
 \sectionsep
 
 \subsection{Frontend}
-Angular \textbullet{} 
-Vue JS \textbullet{} 
+Angular \textbullet{}
+Vue JS \textbullet{}
 JQuery \textbullet{} \newline
-JavaScript \textbullet{} 
-HTML5 \textbullet{} 
+JavaScript \textbullet{}
+HTML5 \textbullet{}
 CSS3
 \sectionsep
 
 \subsection{Proficient in}
-Data Structures \& 
-Algorithms \textbullet{} 
-System Design \textbullet{} 
-Design Pattern \textbullet{} 
-Functional Programming \textbullet{} 
-Web Security \textbullet{} 
-Performance Analysis \textbullet{} 
-Unit Testing \textbullet{} 
-Automation Testing \textbullet{} 
+Data Structures \&
+Algorithms ,
+System Design,
+Design Pattern,
+Functional Programming,
+Web Security,
+Performance Analysis,
+Unit Testing,
+Automation Testing,
 Code Review
 \sectionsep
 
 \subsection{Database}
 \location{Relational Database:}
-Oracle \textbullet{} 
+Oracle \textbullet{}
 MySQL
 
 \location{NoSQL Database:}
@@ -139,46 +139,45 @@ Casendra
 \sectionsep
 
 \subsection{Cloud}
-AWS \textbullet{} 
-Azure \textbullet{}
-GCP
+AWS
 \sectionsep
 
 \subsection{Code Quality}
-SonarQube \textbullet{} 
+SonarQube \textbullet{}
 JSLint \textbullet{}
 PMD \textbullet{}
 CheckStyle \textbullet{}
-Manual Code Review 
+Manual Code Review
 \sectionsep
 
 \subsection{Testing \& Automation}
-JUnit \textbullet{}  
-Mockito \textbullet{} 
+JUnit \textbullet{}
+Mockito \textbullet{}
 Karma \textbullet{}
 Jasmine \textbullet{}
 Puppeteer \textbullet{}
-Newman
+Newman\textbullet{}
+PyTest
 \sectionsep
 
 \subsection{Performance}
-Dynatrace \textbullet{} 
+Dynatrace \textbullet{}
 BlackDuck
 \sectionsep
 
-\subsection{Security}
-SQL Injection \textbullet{} 
-XSS \textbullet{} 
-CSRF \textbullet{} 
+\subsection{Web Security}
+SQL Injection \textbullet{}
+XSS \textbullet{}
+CSRF \textbullet{}
 DOS
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-Github:// \href{https://github.com/hibumbapartha}{\bf hibumbapartha} \\
-LinkedIn://  \href{https://www.linkedin.com/in/architect-partha/}{\bf architect-partha} \\
+\section{Links}
+Github:// \href{https://github.com/bumbapartha}{\bf bumbapartha} \\
+LinkedIn://  \href{https://www.linkedin.com/in/bumbapartha/}{\bf bumbapartha} \\
 StackOverflow://  \href{https://stackoverflow.com/users/4943598/partha-sarathi-ghosh}{\bf partha-sarathi-ghosh} \\
 LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 
@@ -188,9 +187,9 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.66\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -199,11 +198,11 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 \section{Experience | 15 years +}
 \runsubsection{Vonage}
 \descript{| Senior Software Engineer }
-\location{Apr 2022 - Present | Kolkata, IN}
+\location{Apr 2022 - Present | London, UK}
 \vspace{\topsep}
 \begin{tightemize}
 \item \textbf{Role:} Full-stack Developer
-\item \textbf{Responsibilities:} Requirement Analysis, High Level and Low Level Design, Development, Code Review, Performance Analysis, Security Analysis, CICD implementation. 
+\item \textbf{Responsibilities:} Requirement Analysis, High Level and Low Level Design, Development, Code Review, Performance Analysis, Security Analysis, CICD implementation. Production Deployment, Maintenance and Support
 \item \textbf{Projects:} Vonage Customer Dashboard
 \end{tightemize}
 \sectionsep
@@ -214,7 +213,7 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 \vspace{\topsep}
 \begin{tightemize}
 \item \textbf{Role:} Technical Architect, Full-stack Developer
-\item \textbf{Responsibilities:} Requirement Analysis, Seed Project Creation, High Level and Low Level Design, Development, Code Review, Performance Analysis, Security Analysis, CICD implementation. 
+\item \textbf{Responsibilities:} Requirement Analysis, Seed Project Creation, High Level and Low Level Design, Development, Code Review, Performance Analysis, Security Analysis, CICD implementation.
 \item \textbf{Projects:} Insurance Based Web Application, Banking Mobile Application etc
 \end{tightemize}
 \sectionsep
@@ -251,7 +250,7 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+\section{Education}
 
 \subsection{West Bengal University Of Technology}
 \descript{BTech in Informtion Technology}
@@ -262,7 +261,7 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
+\section{Awards}
 \begin{tabular}{rll}
 2012	     & Champion  &  Chess Turnament @ TCS Kolkata\\
 2010	     & Finalist  & Best Ethical Hacker event @ TCS\\
@@ -274,7 +273,7 @@ LeetCode://  \href{https://leetcode.com/hi_bumba_partha/}{\bf hi\_bumba\_partha}
 %     CERTIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Certification} 
+\section{Certification}
 \begin{tabular}{ll}
 OCJP & Oracle Certified Java Programmer\\
 OCWCD &  Oracle Certified Web Component Developer \\
@@ -282,5 +281,5 @@ Micro-service Architect & Edureka Certified Micro-service Architect
 \end{tabular}
 \sectionsep
 
-\end{minipage} 
+\end{minipage}
 \end{document}  \documentclass[]{article}
