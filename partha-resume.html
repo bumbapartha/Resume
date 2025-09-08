@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume - Partha Sarathi Ghosh</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f8f9fa;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      .container {
+        width: 900px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 40px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      header h1 {
+        font-size: 28px;
+        margin: 0;
+      }
+      header h2 {
+        font-size: 18px;
+        margin: 5px 0;
+        color: #555;
+      }
+      .contact {
+        text-align: center;
+        font-size: 14px;
+        color: #444;
+        margin-bottom: 25px;
+      }
+      .contact a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      h3 {
+        font-size: 20px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 4px;
+        margin-top: 30px;
+      }
+      ul {
+        padding-left: 18px;
+      }
+      ul li {
+        margin-bottom: 6px;
+      }
+      .two-col {
+        display: flex;
+        gap: 30px;
+      }
+      .col {
+        flex: 1;
+      }
+      .job {
+        margin-bottom: 20px;
+      }
+      .job h4 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .job span {
+        display: block;
+        font-size: 13px;
+        color: #777;
+      }
+      .skills-list {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Partha Sarathi Ghosh</h1>
+        <h2>Technical Architect | Full-Stack Developer</h2>
+      </header>
+
+      <div class="contact">
+        📍 London, UK | 📞 +44 7867218682 | ✉️
+        <a href="mailto:ghosh.bumba@gmail.com">ghosh.bumba@gmail.com</a><br />
+        🔗 <a href="https://linkedin.com/in/architect-partha">LinkedIn</a> |
+        <a href="https://github.com/bumbapartha">GitHub</a> |
+        <a href="https://leetcode.com/hi_bumba_partha/">LeetCode</a> |
+        <a href="https://stackoverflow.com/users/4943598/partha-sarathi-ghosh"
+          >StackOverflow</a
+        >
+      </div>
+
+      <section>
+        <h3>Professional Summary</h3>
+        <p>
+          15+ years of expertise in Full Stack Development and Architecture with
+          strong experience across modern frontend, backend, microservices, and
+          cloud. Proven track record in requirement analysis, HLD/LLD, scalable
+          system design, code quality, performance optimization, and security.
+          Passionate about building sustainable technology solutions and
+          mentoring teams.
+        </p>
+      </section>
+
+      <!-- ====== CSS: Experience section (add to your stylesheet or <style> block) ====== -->
+      <style>
+        /* Experience section */
+        .exp-section {
+          margin-top: 28px;
+        }
+
+        .exp-section__title {
+          font-size: 20px;
+          margin: 0 0 12px 0;
+          padding-bottom: 6px;
+          border-bottom: 2px solid #e6e6e6;
+          color: #222;
+        }
+
+        .job-list {
+          margin-top: 14px;
+        }
+
+        .job {
+          border-bottom: 1px solid #f1f1f1;
+        }
+
+        .job__header {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          gap: 12px;
+        }
+
+        .job__title {
+          font-size: 16px;
+          margin: 0;
+          font-weight: 600;
+          color: #111;
+        }
+
+        .job__meta {
+          font-size: 13px;
+          color: #666;
+        }
+
+        .job__bullets {
+          margin-top: 8px;
+          padding-left: 18px;
+        }
+
+        .job__bullets li {
+          margin-bottom: 8px;
+          font-size: 14px;
+          color: #333;
+          line-height: 1.45;
+        }
+
+        .job__bullets li strong {
+          color: #000;
+        }
+
+        /* subtle spacing for last entry */
+        .job:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+
+        /* Responsive: stack header on small screens */
+        @media (max-width: 620px) {
+          .job__header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+          }
+        }
+      </style>
+
+      <section class="exp-section" id="experience">
+        <h3 class="exp-section__title">Experience</h3>
+
+        <div class="job-list">
+          <!-- Vonage -->
+          <article class="job">
+            <div class="job__header">
+              <div>
+                <h4 class="job__title">Senior Software Engineer – Vonage</h4>
+                <div class="job__meta">
+                  Apr 2022 – Present | London, UK (Remote)
+                </div>
+              </div>
+            </div>
+            <ul class="job__bullets">
+              <li>
+                <strong>Architected and delivered</strong> the Vonage Customer
+                Dashboard for enterprise clients with high availability.
+              </li>
+              <li>
+                <strong>Improved CI/CD pipelines</strong> with Jenkins & GitHub
+                Actions, cutting deployment time and improving reliability.
+              </li>
+              <li>
+                <strong>Led reviews & security assessments</strong>, reducing
+                vulnerabilities and improving quality (SonarQube-driven).
+              </li>
+              <li>
+                Partnered with product/UX teams to design scalable features with
+                excellent UX.
+              </li>
+            </ul>
+          </article>
+
+          <!-- TCS -->
+          <article class="job">
+            <div class="job__header">
+              <div>
+                <h4 class="job__title">
+                  Associate Consultant / Technical Architect – TCS
+                </h4>
+                <div class="job__meta">
+                  Nov 2010 – Apr 2022 | Kolkata, India
+                </div>
+              </div>
+            </div>
+            <ul class="job__bullets">
+              <li>
+                <strong>Designed & implemented</strong> insurance and banking
+                platforms handling high-volume transactions.
+              </li>
+              <li>
+                <strong>Created seed projects</strong> & reusable frameworks,
+                reducing onboarding time significantly.
+              </li>
+              <li>
+                <strong>Led teams & mentored engineers</strong> on system design
+                and cloud migration best practices.
+              </li>
+              <li>
+                <strong>Performed performance tuning</strong>, boosting
+                throughput and reducing latency.
+              </li>
+              <li>
+                Migrated legacy monoliths into microservices for scalability and
+                maintainability.
+              </li>
+            </ul>
+          </article>
+
+          <!-- GeoTech -->
+          <article class="job">
+            <div class="job__header">
+              <div>
+                <h4 class="job__title">
+                  Senior Software Engineer – GeoTech Informatics
+                </h4>
+                <div class="job__meta">
+                  Jul 2008 – Nov 2010 | Kolkata, India
+                </div>
+              </div>
+            </div>
+            <ul class="job__bullets">
+              <li>
+                Developed GIS-based applications for insurance clients with
+                mapping and spatial data.
+              </li>
+              <li>
+                Introduced unit testing and code review practices for better
+                delivery quality.
+              </li>
+            </ul>
+          </article>
+
+          <!-- Creationet -->
+          <article class="job">
+            <div class="job__header">
+              <div>
+                <h4 class="job__title">
+                  Software Developer – Creationet Infosystem
+                </h4>
+                <div class="job__meta">
+                  May 2007 – Apr 2008 | Kolkata, India
+                </div>
+              </div>
+            </div>
+            <ul class="job__bullets">
+              <li>
+                Built reporting modules using Java Swing & Jasper Reports for
+                automated insights delivery.
+              </li>
+            </ul>
+          </article>
+
+          <!-- Sansoft -->
+          <article class="job">
+            <div class="job__header">
+              <div>
+                <h4 class="job__title">Web Developer – Sansoft India</h4>
+                <div class="job__meta">
+                  Jul 2006 – Apr 2007 | Kolkata, India
+                </div>
+              </div>
+            </div>
+            <ul class="job__bullets">
+              <li>
+                Delivered client portals with PHP & CMS platforms (Joomla,
+                Drupal, WordPress).
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- CSS (add to your stylesheet or inside <style> in the head) -->
+      <style>
+        /* Core Competencies block */
+        .core-competencies {
+          margin-top: 24px;
+        }
+
+        .core-competencies__title {
+          font-size: 20px;
+          margin: 0 0 10px 0;
+          padding-bottom: 6px;
+          border-bottom: 2px solid #e0e0e0;
+          color: #222;
+        }
+
+        .competency-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 12px 24px;
+          margin-top: 12px;
+        }
+
+        .competency {
+          background: #fafafa;
+          border: 1px solid #f0f0f0;
+          padding: 12px 14px;
+          border-radius: 8px;
+        }
+
+        .competency__heading {
+          font-weight: 600;
+          font-size: 14px;
+          margin: 0 0 6px 0;
+          color: #111;
+        }
+
+        .competency__desc {
+          margin: 0;
+          font-size: 13px;
+          color: #444;
+          line-height: 1.4;
+        }
+
+        /* compact "years" emphasis */
+        .competency__desc strong {
+          color: #000;
+        }
+
+        /* Responsive tweak for small screens */
+        @media (max-width: 520px) {
+          .competency-grid {
+            grid-template-columns: 1fr;
+          }
+          .competency {
+            padding: 10px 12px;
+          }
+        }
+      </style>
+
+      <!-- HTML (place in the body where you want the section) -->
+      <section class="core-competencies" id="core-competencies">
+        <h3 class="core-competencies__title">Core Competencies</h3>
+
+        <div class="competency-grid">
+          <div class="competency">
+            <h4 class="competency__heading">Architecture & System Design</h4>
+            <p class="competency__desc">
+              <strong>10+ years</strong> designing scalable microservices and
+              distributed systems. Expert in HLD/LLD, UML, design patterns and
+              domain-driven design (DDD).
+            </p>
+          </div>
+
+          <div class="competency">
+            <h4 class="competency__heading">Full-Stack Development</h4>
+            <p class="competency__desc">
+              Deep experience with
+              <strong>Java (Spring Boot, Hibernate)</strong> and
+              <strong>JavaScript (Angular, Vue, Node.js)</strong>. Built and
+              maintained production applications serving large user bases.
+            </p>
+          </div>
+
+          <div class="competency">
+            <h4 class="competency__heading">Cloud & DevOps</h4>
+            <p class="competency__desc">
+              Hands-on with <strong>AWS</strong> and Spring Cloud (Eureka, Zuul,
+              Config, Zipkin). CI/CD pipelines using Jenkins, JFrog, Maven, and
+              Git/TFS for reliable deployments.
+            </p>
+          </div>
+
+          <div class="competency">
+            <h4 class="competency__heading">Security & Performance</h4>
+            <p class="competency__desc">
+              Strong background in web security (XSS, CSRF, SQL Injection, DoS),
+              vulnerability assessment, and performance tuning using SonarQube,
+              Dynatrace, and BlackDuck.
+            </p>
+          </div>
+
+          <div class="competency">
+            <h4 class="competency__heading">Testing & Automation</h4>
+            <p class="competency__desc">
+              Proficient in unit and integration testing frameworks:
+              <strong>JUnit, Mockito</strong>, and automation tools such as
+              Karma, Jasmine, Puppeteer, and Newman.
+            </p>
+          </div>
+
+          <div class="competency">
+            <h4 class="competency__heading">Database & Data Management</h4>
+            <p class="competency__desc">
+              Experience designing schemas and optimizing queries for
+              <strong>Oracle, MySQL</strong>
+              and NoSQL (MongoDB, Cassandra) for high-throughput systems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Certifications</h3>
+        <ul>
+          <li>Oracle Certified Java Programmer (OCJP)</li>
+          <li>Oracle Certified Web Component Developer (OCWCD)</li>
+          <li>Edureka Certified Microservice Architect</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <strong>B.Tech in Information Technology</strong> – West Bengal
+            University of Technology, Kolkata (2006)
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
